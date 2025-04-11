@@ -32,7 +32,7 @@ A clean, responsive React app to browse books by genre using the [Gutendex API](
 ## 📦 Installation & Local Setup
 
 ```bash
-git clone https://github.com/your-username/gutenberg-book-app.git
+git clone https://github.com/devSahilSingh/Gutenberg-book-app.git
 cd gutenberg-book-app
 npm install
 npm run dev
