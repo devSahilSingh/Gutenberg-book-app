@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import GenreCard from "../../components/GenreCard/GenreCard";
+import GenreCard from "../../components/genreCard/GenreCard";
 import {
   FaFlask,
   FaTheaterMasks,
