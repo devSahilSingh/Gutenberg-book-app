@@ -4,15 +4,14 @@ A clean, responsive React app to browse books by genre using the [Gutendex API](
 
 ## 🌐 Live Demo
 
-🔗 [View it on Vercel](https://your-vercel-app-url.vercel.app)  
-_(Replace this with your deployed link)_
+🔗 [[Gutenberg demo app ](https://gutenberg-book-app.vercel.app/)]
 
 ---
 
 ## 🚀 Features
 
 - 🎯 Genre-based book filtering (Fiction, History, Adventure, etc.)
-- 🔍 Real-time search by title or author
+- 🔍 Real-time search by book title or author
 - 🔁 Infinite scrolling book list
 - 📖 Opens books in the best available format (HTML > PDF > TXT)
 - 📱 Responsive design for all devices
@@ -37,10 +36,10 @@ git clone https://github.com/your-username/gutenberg-book-app.git
 cd gutenberg-book-app
 npm install
 npm run dev
+http://localhost:5173/
 
 
-```
-src/
+```src/
 │
 ├── components/
 │   ├── GenreCard/
@@ -67,6 +66,4 @@ src/
 ├── App.jsx
 ├── App.css
 └── index.js
-
-
 ```
