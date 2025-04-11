@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import InfiniteScroll from "react-infinite-scroll-component";
 import { FaArrowLeft } from "react-icons/fa";
-import "./BookList.css";
+import "./Booklist.css";
 import AlertBox from "../../components/alertBox/AlertBox";
 import BookCard from "../../components/bookCard/BookCard";
 import SearchBar from "../../components/searchBar/SearchBar";
