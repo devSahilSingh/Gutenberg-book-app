@@ -51,6 +51,12 @@ http://localhost:5173/
 │   ├── SearchBar/
 │   │   ├── SearchBar.jsx
 │   │   └── SearchBar.css
+│   ├── alertBox/
+│   │   ├── AlertBox.jsx
+│   │   └── AlertBox.css
+│   ├── skeletonLoader/
+│   │   ├── SkeletonLoader.jsx
+│   │   └── SkeletonLoader.css
 │
 ├── pages/
 │   ├── Home/
@@ -62,6 +68,8 @@ http://localhost:5173/
 │
 ├── utils/
 │   └── getPreferredBookUrl.js
+│   └── normalizeNextUrl.js
+│   └── useDebounce.js
 │
 ├── App.jsx
 ├── App.css
