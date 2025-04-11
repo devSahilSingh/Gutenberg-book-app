@@ -1,0 +1,34 @@
+.home {
+  min-height: 100vh;
+  background: #f5f3ff;
+  padding: 3rem 2rem;
+}
+
+.title {
+  font-size: 48px;
+  color: #5e56e7;
+  margin-bottom: 0.5rem;
+  text-align: left;
+  max-width: 900px;
+  margin-inline: auto;
+  font-family: "Montserrat", sans-serif;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #555;
+  text-align: left;
+  margin-bottom: 2.5rem;
+  max-width: 900px;
+  margin-inline: auto;
+  font-weight: 600;
+}
+
+.genre-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  column-gap: 6rem;
+  row-gap: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
