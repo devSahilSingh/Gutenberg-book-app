@@ -21,8 +21,8 @@ const BookList = () => {
   const [showAlert, setShowAlert] = useState(false);
   const debouncedSearch = useDebounce(search, 500);
 
-  const baseUrl = "http://skunkworks.ignitesol.com:8000/books";
-
+  const baseUrl = import.meta.env.VITE_API_BASE_URL;
+  
   // Function to fetch books from the API considering the genre and search term based on the URL
   const fetchBooks = async (url) => {
     try {
