@@ -9,7 +9,7 @@ import SearchBar from "../../components/searchBar/SearchBar";
 import useDebounce from "../../utils/useDebounce";
 import { getPreferredBookUrl } from "../../utils/getPreferredBookUrl";
 import { normalizeNextUrl } from "../../utils/normalizeNextUrl";
-import SkeletonLoader from "../../components/skeletonLoader/SkeletonLoader";
+import SkeletonLoader from "../../components/skeletonLoader/SkeletonLoader.jsx";
 
 const BookList = () => {
   const { genre } = useParams();
