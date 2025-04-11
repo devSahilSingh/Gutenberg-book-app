@@ -1,0 +1,46 @@
+.skeleton-card {
+    width: 114px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 8px;
+    animation: pulse 1.5s infinite;
+  }
+  
+  .skeleton-cover {
+    width: 100%;
+    height: 162px;
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    margin-bottom: 8px;
+  }
+  
+  .skeleton-title,
+  .skeleton-author {
+    height: 12px;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    margin-bottom: 6px;
+    width: 100%;
+  }
+  
+  .skeleton-title {
+    width: 90%;
+  }
+  
+  .skeleton-author {
+    width: 70%;
+  }
+  
+  @keyframes pulse {
+    0% {
+      background-color: #e0e0e0;
+    }
+    50% {
+      background-color: #f0f0f0;
+    }
+    100% {
+      background-color: #e0e0e0;
+    }
+  }
+  
