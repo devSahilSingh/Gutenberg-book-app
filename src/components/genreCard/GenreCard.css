@@ -1,0 +1,42 @@
+.genre-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  border-radius: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 50px;
+  box-shadow: 0 2px 5px 0 rgba(211, 209, 238, 0.5);
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  font-weight: 600;
+  color: #4a4a4a;
+}
+
+.genre-info {
+  display: flex;
+}
+
+.genre-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.genre-icon {
+  margin-right: 1rem;
+  font-size: 1.4rem;
+}
+
+.genre-name {
+  flex-grow: 1;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #3f3d56;
+}
+
+.arrow {
+  font-size: 1.2rem;
+  color: #9370db;
+}
