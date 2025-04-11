@@ -3,13 +3,13 @@ import { useParams, useNavigate } from "react-router-dom";
 import InfiniteScroll from "react-infinite-scroll-component";
 import { FaArrowLeft } from "react-icons/fa";
 import "./Booklist.css";
+import SkeletonLoader from "../../components/skeletonLoader/skeletonLoader";
 import AlertBox from "../../components/alertBox/AlertBox";
 import BookCard from "../../components/bookCard/BookCard";
 import SearchBar from "../../components/searchBar/SearchBar";
 import useDebounce from "../../utils/useDebounce";
 import { getPreferredBookUrl } from "../../utils/getPreferredBookUrl";
 import { normalizeNextUrl } from "../../utils/normalizeNextUrl";
-import SkeletonLoader from "../../components/skeletonLoader/SkeletonLoader";
 
 const BookList = () => {
   const { genre } = useParams();
